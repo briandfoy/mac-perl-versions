@@ -24,7 +24,7 @@ is a bit better, but dated. A lot of this is verified in
 
 There's even [a list on cpan.org](https://www.cpan.org/ports/binaries.html#mac_osx),
 but it doesn't include the internal build numbers or the second (or
-third) version that shipped.
+third) version that shipped. Well, not yet but [I sent a pull request](https://github.com/perlorg/cpanorg/pull/52).
 
 If you have corrections or more information, raise an issue or send a
 pull request.
