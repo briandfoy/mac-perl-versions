@@ -1,0 +1,17 @@
+name: validate_json
+
+on:
+    push:
+        branches:
+            - '*'
+        pull_request:
+            - '*'
+
+jobs:
+    json:
+        runs-on: ubuntu-20.04
+        steps:
+            - uses: actions/checkout@v2
+            - name: Validate JSON
+              run: |
+                jq < mac-perl-versions.json
