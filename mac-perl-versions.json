@@ -231,7 +231,7 @@
 		"name": "Catalina",
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-131.140.1/",
-		"os_versions": [ "10.15.6" ],
+		"os_versions": [ "10.15.6", "10.15.7" ],
 		"perl_versions": [ "5.18.4", "5.28.2" ]
 		},
 	"perl-138.40.1": {
