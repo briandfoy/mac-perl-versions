@@ -260,17 +260,15 @@
 		},
 	"perl-145": {
 		"os": "macOS",
-		"name": "Big Sur",
+		"name": "Monterey",
 		"arch": "x86",
-		"source": "https://opensource.apple.com/source/perl/perl-138.120.1/",
 		"os_versions": [ "12.0.1", "12.1", "12.2", "12.3", "12.4", "12.5" ],
 		"perl_versions": [ "5.18.4", "5.30.3" ]
 		},
 	"perl-152": {
 		"os": "macOS",
-		"name": "Big Sur",
+		"name": "Ventura",
 		"arch": "x86",
-		"source": "https://opensource.apple.com/source/perl/perl-138.120.1/",
 		"os_versions": [ "13.0", "13.1", "13.2" ],
 		"perl_versions": [ "5.30.3", "5.34.0" ]
 		}
