@@ -262,6 +262,7 @@
 		"os": "macOS",
 		"name": "Monterey",
 		"arch": "x86",
+		"source": "https://github.com/apple-oss-distributions/perl/tree/perl-145",
 		"os_versions": [ "12.0.1", "12.1", "12.2", "12.3", "12.4", "12.5" ],
 		"perl_versions": [ "5.18.4", "5.30.3" ]
 		},
@@ -269,7 +270,24 @@
 		"os": "macOS",
 		"name": "Ventura",
 		"arch": "x86",
-		"os_versions": [ "13.0", "13.1", "13.2" ],
+		"source": "https://github.com/apple-oss-distributions/perl/tree/perl-152",
+		"os_versions": [ "13.0", "13.1", "13.2", "13.3" ],
+		"perl_versions": [ "5.30.3", "5.34.0" ]
+		},
+	"perl-152.120.1": {
+		"os": "macOS",
+		"name": "Ventura",
+		"arch": "x86",
+		"source": "https://github.com/apple-oss-distributions/perl/tree/perl-152.120.1",
+		"os_versions": [  "13.4", "13.5" ],
+		"perl_versions": [ "5.30.3", "5.34.0" ]
+		},
+	"perl-155": {
+		"os": "macOS",
+		"name": "Sonoma",
+		"arch": "x86",
+		"source": "https://github.com/apple-oss-distributions/perl/tree/perl-155",
+		"os_versions": [  "14.0", "14.1", "14.2" ],
 		"perl_versions": [ "5.30.3", "5.34.0" ]
 		}
 	}
