@@ -3,6 +3,9 @@
 Apple lists the open source they use, so I trawled through that to
 extract the versions of Perl that each Mac version shipped with.
 
+* [Apple perl distros on GitHub](https://github.com/apple-oss-distributions/perl)
+* [Open source projects in macOS releases](https://opensource.apple.com/releases/)
+
 Some notes:
 
 * I can't verify most of this because I don't have these old systems
