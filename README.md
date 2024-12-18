@@ -31,3 +31,13 @@ third) version that shipped. Well, not yet but [I sent a pull request](https://g
 
 If you have corrections or more information, raise an issue or send a
 pull request.
+
+## Source
+
+The primary repository is in GitHub, but as with most of my stuff, I
+mirror the repo in several services:
+
+* [GitHub](https://github.com/briandfoy/mac-perl-versions)
+* [Bitbucket](https://bitbucket.org/briandfoy/mac-perl-versions/)
+* [Gitlab](https://gitlab.com/briandfoy/mac-perl-versions)
+* [Codeberg](https://codeberg.org/briandfoy/mac-perl-versions)
