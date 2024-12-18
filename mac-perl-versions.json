@@ -9,7 +9,8 @@
 		"arch": "ppc",
 		"source": "https://opensource.apple.com/source/perl/perl-17/",
 		"os_versions": [ "10.0", "10.0.1", "10.0.2", "10.0.3", "10.0.4"  ],
-		"perl_versions": [ "5.6.0" ]
+		"perl_versions": [ "5.6.0" ],
+		"default": "5.6"
 		},
 	"perl-17.1": {
 		"os": "Mac OS X",
@@ -17,7 +18,8 @@
 		"arch": "ppc",
 		"source": "https://opensource.apple.com/source/perl/perl-17.1/",
 		"os_versions": [ "10.1", "10.1.1", "10.1.2", "10.1.3", "10.1.4", "10.1.5" ],
-		"perl_versions": [ "5.6.0" ]
+		"perl_versions": [ "5.6.0" ],
+		"default": "5.6"
 		},
 	"perl-21": {
 		"os": "Mac OS X",
@@ -25,7 +27,8 @@
 		"arch": "ppc",
 		"source": "https://opensource.apple.com/source/perl/perl-21/",
 		"os_versions": [ "10.2", "10.2.1", "10.2.2", "10.2.3", "10.2.4", "10.2.5", "10.2.6", "10.2.7", "10.2.8.G5", "10.2.8" ],
-		"perl_versions": [ "5.6.0" ]
+		"perl_versions": [ "5.6.0" ],
+		"default": "5.6"
 		},
 	"perl-25.2": {
 		"os": "Mac OS X",
@@ -33,14 +36,16 @@
 		"arch": "ppc",
 		"source": "https://opensource.apple.com/source/perl/perl-25.2/",
 		"os_versions": [ "10.3", "10.3.1", "10.3.2", "10.3.3", "10.3.4", "10.3.5", "10.3.6", "10.3.7", "10.3.8", "10.3.9" ],
-		"perl_versions": [ "5.8.1-RC3" ]
+		"perl_versions": [ "5.8.1-RC3" ],
+		"default": "5.8"
 		},
 	"perl-35": {
 		"os": "Mac OS X",
 		"name": "Tiger",
 		"source": "https://opensource.apple.com/source/perl/perl-35/",
 		"os_versions": [ "10.4", "10.4.1", "10.4.2", "10.4.3", "10.4.4.ppc", "10.4.5.ppc", "10.4.6.ppc", "10.4.7.ppc", "10.4.8.ppc" ],
-		"perl_versions": [ "5.8.6" ]
+		"perl_versions": [ "5.8.6" ],
+		"default": "5.8"
 		},
 	"perl-35.1.1": {
 		"os": "Mac OS X",
@@ -48,7 +53,8 @@
 		"arch": "ppc",
 		"source": "https://opensource.apple.com/source/perl/perl-35.1.1/",
 		"os_versions": ["10.4.9.ppc", "10.4.10.ppc", "10.4.11.ppc" ],
-		"perl_versions": [ "5.8.6" ]
+		"perl_versions": [ "5.8.6" ],
+		"default": "5.8"
 		},
 	"perl-38": {
 		"os": "Mac OS X",
@@ -56,7 +62,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-38/",
 		"os_versions": [ "10.4.5.x86", "10.4.6.x86", "10.4.7.x86", "10.4.8.x86" ],
-		"perl_versions": [ "5.8.6" ]
+		"perl_versions": [ "5.8.6" ],
+		"default": "5.8"
 		},
 	"perl-38.1.1": {
 		"os": "Mac OS X",
@@ -64,7 +71,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-38.1.1/",
 		"os_versions": ["10.4.9.x86", "10.4.10.x86", "10.4.11.x86" ],
-		"perl_versions": [ "5.8.6" ]
+		"perl_versions": [ "5.8.6" ],
+		"default": "5.8"
 		},
 	"perl-51": {
 		"os": "Mac OS X",
@@ -72,7 +80,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-51/",
 		"os_versions": [ "10.5", "10.5.1" ],
-		"perl_versions": [ "5.8.8" ]
+		"perl_versions": [ "5.8.8" ],
+		"default": "5.8"
 		},
 	"perl-51.1.2": {
 		"os": "Mac OS X",
@@ -80,7 +89,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-51.1.2/",
 		"os_versions": [ "10.5", "10.5.1", "10.5.2", "10.5.3", "10.5.4", "10.5.5", "10.5.6" ],
-		"perl_versions": [ "5.8.8" ]
+		"perl_versions": [ "5.8.8" ],
+		"default": "5.8"
 		},
 	"perl-51.1.4": {
 		"os": "Mac OS X",
@@ -88,7 +98,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-51.1.4/",
 		"os_versions": [ "10.5.7", "10.5.8" ],
-		"perl_versions": [ "5.8.8" ]
+		"perl_versions": [ "5.8.8" ],
+		"default": "5.8"
 		},
 	"perl-63": {
 		"os": "Mac OS X",
@@ -96,7 +107,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-63/",
 		"os_versions": [ "10.6", "10.6.1", "10.6.2", "10.6.3", "10.6.4", "10.6.5", "10.6.6", "10.6.7", "10.6.8" ],
-		"perl_versions": [ "5.8.9", "5.10.0" ]
+		"perl_versions": [ "5.8.9", "5.10.0" ],
+		"default": "5.10"
 		},
 	"perl-73": {
 		"os": "Mac OS X",
@@ -104,7 +116,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-73/",
 		"os_versions": [ "10.7", "10.7.1", "10.7.2", "10.7.3", "10.7.4", "10.7.5" ],
-		"perl_versions": [ "5.10.1", "5.12.4" ]
+		"perl_versions": [ "5.10.1", "5.12.4" ],
+		"default": "5.12"
 		},
 	"perl-77.2": {
 		"os": "Mac OS X",
@@ -112,7 +125,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-77.2/",
 		"os_versions": [ "10.8", "10.8.1", "10.8.2", "10.8.3", "10.8.4", "10.8.5" ],
-		"perl_versions": [ "5.10.1", "5.12.4" ]
+		"perl_versions": [ "5.10.1", "5.12.4" ],
+		"default": "5.12"
 		},
 	"perl-92": {
 		"os": "OS X",
@@ -120,7 +134,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-92/",
 		"os_versions": [ "10.9", "10.9.1", "10.9.2", "10.9.3", "10.9.4", "10.9.5" ],
-		"perl_versions": [ "5.12.5", "5.16.2" ]
+		"perl_versions": [ "5.12.5", "5.16.2" ],
+		"default": "5.16"
 		},
 	"perl-103": {
 		"os": "OS X",
@@ -128,7 +143,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-103/",
 		"os_versions": [ "10.10", "10.10.1", "10.10.2", "10.10.3", "10.10.4" ],
-		"perl_versions": [ "5.16.3", "5.18.2" ]
+		"perl_versions": [ "5.16.3", "5.18.2" ],
+		"default": "5.18"
 		},
 	"perl-103.40.1": {
 		"os": "OS X",
@@ -136,7 +152,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-103.40.1/",
 		"os_versions": [ "10.10.5" ],
-		"perl_versions": [ "5.16.3", "5.18.2" ]
+		"perl_versions": [ "5.16.3", "5.18.2" ],
+		"default": "5.18"
 		},
 	"perl-104": {
 		"os": "OS X",
@@ -152,7 +169,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-107/",
 		"os_versions": [ "10.12", "10.12.1", "10.12.2", "10.12.3" ],
-		"perl_versions": [ "5.16.3", "5.18.2" ]
+		"perl_versions": [ "5.16.3", "5.18.2" ],
+		"default": "5.18"
 		},
 	"perl-107.50.3": {
 		"os": "macOS",
@@ -160,7 +178,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-107.50.3/",
 		"os_versions": [ "10.12.4", "10.12.5", "10.12.6" ],
-		"perl_versions": [ "5.16.3", "5.18.2" ]
+		"perl_versions": [ "5.16.3", "5.18.2" ],
+		"default": "5.18"
 		},
 	"perl-113": {
 		"os": "macOS",
@@ -168,7 +187,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-113/",
 		"os_versions": [ "10.13", "10.13.1" ],
-		"perl_versions": [ "5.18.2" ]
+		"perl_versions": [ "5.18.2" ],
+		"default": "5.18"
 		},
 	"perl-113.31.1": {
 		"os": "macOS",
@@ -176,7 +196,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-113.31.1/",
 		"os_versions": [ "10.13.2", "10.13.3" ],
-		"perl_versions": [ "5.18.2" ]
+		"perl_versions": [ "5.18.2" ],
+		"default": "5.18"
 		},
 	"perl-113.51.2": {
 		"os": "macOS",
@@ -184,7 +205,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-113.51.2/",
 		"os_versions": [ "10.13.4", "10.13.5" ],
-		"perl_versions": [ "5.18.2" ]
+		"perl_versions": [ "5.18.2" ],
+		"default": "5.18"
 		},
 	"perl-113.71.2": {
 		"os": "macOS",
@@ -192,7 +214,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-113.71.2/",
 		"os_versions": [ "10.13.6" ],
-		"perl_versions": [ "5.18.2" ]
+		"perl_versions": [ "5.18.2" ],
+		"default": "5.18"
 		},
 	"perl-113.200.7": {
 		"os": "macOS",
@@ -200,7 +223,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-113.200.7/",
 		"os_versions": [ "10.14", "10.14.1", "10.14.2", "10.14.3" ],
-		"perl_versions": [ "5.18.2" ]
+		"perl_versions": [ "5.18.2" ],
+		"default": "5.18"
 		},
 	"perl-113.250.2": {
 		"os": "macOS",
@@ -208,7 +232,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-113.250.2/",
 		"os_versions": [ "10.14.4" ],
-		"perl_versions": [ "5.18.2" ]
+		"perl_versions": [ "5.18.2" ],
+		"default": "5.18"
 		},
 	"perl-113.261.1": {
 		"os": "macOS",
@@ -216,7 +241,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-113.261.1/",
 		"os_versions": [ "10.14.5", "10.14.6" ],
-		"perl_versions": [ "5.18.4" ]
+		"perl_versions": [ "5.18.4" ],
+		"default": "5.18"
 		},
 	"perl-131": {
 		"os": "macOS",
@@ -224,7 +250,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-131/",
 		"os_versions": [ "10.15", "10.15.1", "10.15.2", "10.15.3", "10.15.4", "10.15.5" ],
-		"perl_versions": [ "5.18.4", "5.28.2" ]
+		"perl_versions": [ "5.18.4", "5.28.2" ],
+		"default": "5.18"
 		},
 	"perl-131.140.1": {
 		"os": "macOS",
@@ -232,7 +259,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-131.140.1/",
 		"os_versions": [ "10.15.6", "10.15.7" ],
-		"perl_versions": [ "5.18.4", "5.28.2" ]
+		"perl_versions": [ "5.18.4", "5.28.2" ],
+		"default": "5.18"
 		},
 	"perl-138.40.1": {
 		"os": "macOS",
@@ -240,7 +268,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-138.40.1/",
 		"os_versions": [ "11.0.1", "11.1", "11.2", "11.3"  ],
-		"perl_versions": [ "5.18.4", "5.28.2", "5.30.2" ]
+		"perl_versions": [ "5.18.4", "5.28.2", "5.30.2" ],
+		"default": "5.28"
 		},
 	"perl-138.100.2": {
 		"os": "macOS",
@@ -248,7 +277,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-138.100.2/",
 		"os_versions": [ "11.1.3" ],
-		"perl_versions": [ "5.18.4", "5.28.2", "5.30.2" ]
+		"perl_versions": [ "5.18.4", "5.28.2", "5.30.2" ],
+		"default": "5.30"
 		},
 	"perl-138.120.1": {
 		"os": "macOS",
@@ -256,7 +286,8 @@
 		"arch": "x86",
 		"source": "https://opensource.apple.com/source/perl/perl-138.120.1/",
 		"os_versions": [ "11.1.4", "11.1.5", "11.5" ],
-		"perl_versions": [ "5.18.4", "5.30.2" ]
+		"perl_versions": [ "5.18.4", "5.30.2" ],
+		"default": "5.30"
 		},
 	"perl-145": {
 		"os": "macOS",
@@ -264,7 +295,8 @@
 		"arch": "x86",
 		"source": "https://github.com/apple-oss-distributions/perl/tree/perl-145",
 		"os_versions": [ "12.0.1", "12.1", "12.2", "12.3", "12.4", "12.5" ],
-		"perl_versions": [ "5.18.4", "5.30.3" ]
+		"perl_versions": [ "5.18.4", "5.30.3" ],
+		"default": "5.30"
 		},
 	"perl-152": {
 		"os": "macOS",
@@ -272,7 +304,8 @@
 		"arch": "x86",
 		"source": "https://github.com/apple-oss-distributions/perl/tree/perl-152",
 		"os_versions": [ "13.0", "13.1", "13.2", "13.3" ],
-		"perl_versions": [ "5.30.3", "5.34.0" ]
+		"perl_versions": [ "5.30.3", "5.34.0" ],
+		"default": "5.30"
 		},
 	"perl-152.120.1": {
 		"os": "macOS",
@@ -280,7 +313,8 @@
 		"arch": "x86",
 		"source": "https://github.com/apple-oss-distributions/perl/tree/perl-152.120.1",
 		"os_versions": [  "13.4", "13.5" ],
-		"perl_versions": [ "5.30.3", "5.34.0" ]
+		"perl_versions": [ "5.30.3", "5.34.0" ],
+		"default": "5.30"
 		},
 	"perl-155": {
 		"os": "macOS",
@@ -288,7 +322,8 @@
 		"arch": "x86",
 		"source": "https://github.com/apple-oss-distributions/perl/tree/perl-155",
 		"os_versions": [  "14.0", "14.1", "14.2", "14.3" ],
-		"perl_versions": [ "5.30.3", "5.34.0" ]
+		"perl_versions": [ "5.30.3", "5.34.0" ],
+		"default": "5.30"
 		},
 	"perl-157.100.1": {
 		"os": "macOS",
@@ -296,7 +331,8 @@
 		"arch": "x86",
 		"source": "https://github.com/apple-oss-distributions/perl/tree/perl-157.100.1",
 		"os_versions": [  "14.4" ],
-		"perl_versions": [ "5.30.3", "5.34.1" ]
+		"perl_versions": [ "5.30.3", "5.34.1" ],
+		"default": "5.34"
 		},
 	"perl-157.120.2": {
 		"os": "macOS",
@@ -304,7 +340,8 @@
 		"arch": "x86",
 		"source": "https://github.com/apple-oss-distributions/perl/tree/perl-157.120.2",
 		"os_versions": [  "14.5", "14.6" ],
-		"perl_versions": [ "5.30.3", "5.34.1" ]
+		"perl_versions": [ "5.30.3", "5.34.1" ],
+		"default": "5.34"
 		},
 	"perl-163": {
 		"os": "macOS",
@@ -312,7 +349,8 @@
 		"arch": "x86",
 		"source": "https://github.com/apple-oss-distributions/perl/tree/perl-163",
 		"os_versions": [  "15.0", "15.1" ],
-		"perl_versions": [ "5.34.1" ]
+		"perl_versions": [ "5.34.1" ],
+		"default": "5.34"
 		}
 	}
 }
