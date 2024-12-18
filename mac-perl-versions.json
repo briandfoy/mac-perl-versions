@@ -345,7 +345,7 @@
 		},
 	"perl-163": {
 		"os": "macOS",
-		"name": "Sonoma",
+		"name": "Sequoia",
 		"arch": "x86",
 		"source": "https://github.com/apple-oss-distributions/perl/tree/perl-163",
 		"os_versions": [  "15.0", "15.1" ],
