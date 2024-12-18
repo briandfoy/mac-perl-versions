@@ -32,6 +32,18 @@ third) version that shipped. Well, not yet but [I sent a pull request](https://g
 If you have corrections or more information, raise an issue or send a
 pull request.
 
+## Switching perls
+
+Since Catalina, macOS ships with more than one version of perl. There's
+a default version noted in the JSON.
+
+Change the perl version through the `VERSIONER_PERL_VERSION` environment
+variable using the major and minor version:
+
+	% export VERSIONER_PERL_VERSION=5.34
+
+I give a [longer example on Stackoverflow](https://stackoverflow.com/a/75968566/2766176).
+
 ## Source
 
 The primary repository is in GitHub, but as with most of my stuff, I
