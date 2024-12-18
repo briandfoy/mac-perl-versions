@@ -47,9 +47,11 @@ I give a [longer example on Stackoverflow](https://stackoverflow.com/a/75968566/
 ## Source
 
 The primary repository is in GitHub, but as with most of my stuff, I
-mirror the repo in several services:
+mirror the repo in several services in case of outage or other situation
+where one might not exist:
 
 * [GitHub](https://github.com/briandfoy/mac-perl-versions)
 * [Bitbucket](https://bitbucket.org/briandfoy/mac-perl-versions/)
 * [Gitlab](https://gitlab.com/briandfoy/mac-perl-versions)
 * [Codeberg](https://codeberg.org/briandfoy/mac-perl-versions)
+
