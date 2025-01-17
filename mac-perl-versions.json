@@ -350,7 +350,7 @@
 		"name": "Sequoia",
 		"arch": [ "x86-64", "arm64" ],
 		"source": "https://github.com/apple-oss-distributions/perl/tree/perl-163",
-		"os_versions": [  "15.0", "15.1" ],
+		"os_versions": [  "15.0", "15.1", "15.2" ],
 		"perl_versions": [ "5.34.1" ],
 		"default": "5.34"
 		}
