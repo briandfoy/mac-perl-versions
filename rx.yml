@@ -1,0 +1,31 @@
+---
+type: '//rec'
+required:
+    _data:
+        type: '//map'
+        values:
+            type: '//rec'
+            required:
+                os:
+                    type: '//str'
+                name:
+                    type: '//str'
+                arch:
+                    type: '//arr'
+                    contents: '//str'
+                source:
+                    type: '//str'
+                os_versions:
+                    type: '//arr'
+                    contents: '//str'
+                perl_versions:
+                    type: '//arr'
+                    contents: '//str'
+                default:
+                    type: '//str'
+    _version:
+        type: '//str'
+    _source:
+        type: '//str'
+    _description:
+        type: '//str'
